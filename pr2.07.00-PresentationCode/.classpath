@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
+			<attribute name="limit-modules" value="jdk.management.jfr,jdk.charsets,jdk.xml.dom,jdk.rmic,jdk.jstatd,jdk.httpserver,jdk.jcmd,java.se,jdk.zipfs,jdk.jshell,jdk.editpad,jdk.jsobject,jdk.sctp,java.smartcardio,jdk.scripting.nashorn.shell,jdk.nio.mapmode,jdk.unsupported.desktop,jdk.accessibility,jdk.security.jgss,jdk.hotspot.agent,jdk.crypto.cryptoki,jdk.net,jdk.naming.rmi,jdk.jconsole,jdk.incubator.foreign,jdk.internal.vm.compiler.management,jdk.security.auth,jdk.aot,jdk.incubator.jpackage,jdk.jartool,jdk.naming.dns,jdk.localedata"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
