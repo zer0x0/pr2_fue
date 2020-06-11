@@ -1,0 +1,4 @@
+Peter Müller;+;1972;4711
+Sandro Leuchter;-;1972;42
+Frank Meier;+;1984;007
+Sheldon Cooper;-;1980;31415
