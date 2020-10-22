@@ -12,6 +12,7 @@ public class Futterstelle {
     /**
      * Füttert den Affen.
      *
+     * 
      * @param affe Affe, der gefüttert werden soll.
      */
     public void gibFutter(final Affe affe) {
