@@ -30,6 +30,7 @@ public class ConsoleToFile {
             System.err.println(lineNumber++);
             System.out.println(line);
             out.println(line);
+
         }
         out.close();
     }
