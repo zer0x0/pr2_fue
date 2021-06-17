@@ -23,7 +23,7 @@ public class GameBoard extends Board {
      */
     public GameBoard() {
         // neues Spielfeld anlegen
-        super(10, new Dimension(400, 400), Color.BLACK);
+        super(10, new Dimension(500, 500), Color.BLACK);
 
         // Figuren erzeugen
         for (var i = 0; i < this.figur.length; i++) {

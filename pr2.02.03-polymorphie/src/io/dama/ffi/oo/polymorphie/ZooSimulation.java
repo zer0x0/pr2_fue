@@ -10,7 +10,7 @@ import io.dama.ffi.oo.polymorphie.tiere.Gorilla;
 public final class ZooSimulation {
 
     /**
-     * Konstruktor.
+     * Konstruktor...
      */
     private ZooSimulation() {
         // keine Objekte benötigt
@@ -22,6 +22,7 @@ public final class ZooSimulation {
      * @param args Kommandozeilen-Argumente.
      */
     public static void main(final String[] args) {
+
         final var futterstelle = new Futterstelle();
 
         final var charlie = new Affe("Charlie");
@@ -38,7 +39,7 @@ public final class ZooSimulation {
         futterstelle.gibFutter(buck);
         futterstelle.gibFutter(debbie);
 
-        System.out.println(charlie);
+        System.out.println(Charlie);
         System.out.println(buck);
         System.out.println(debbie);
     }
